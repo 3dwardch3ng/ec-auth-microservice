@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xmlns="http://maven.apache.org/POM/4.0.0"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <parent>
+        <groupId>sydney.cheng</groupId>
+        <artifactId>ec-super-pom</artifactId>
+        <version>1.0.4</version>
+    </parent>
+
+    <artifactId>ec-auth-microservice</artifactId>
+    <version>1.0.0-SNAPSHOT</version>
+    <packaging>pom</packaging>
+
+    <licenses>
+        <license>
+            <name>MIT License</name>
+            <url>https://www.opensource.org/licenses/mit-license.php</url>
+        </license>
+    </licenses>
+    <developers>
+        <developer>
+            <name>Edward Cheng</name>
+            <email>edward@cheng.sydney</email>
+            <organization>cheng.sydney</organization>
+            <organizationUrl>https://3dwardch3ng.github.io/</organizationUrl>
+        </developer>
+    </developers>
+    <modules>
+        <module>api</module>
+        <module>client</module>
+        <module>models</module>
+    </modules>
+    <scm>
+        <connection>scm:git:git://github.com/3dwardch3ng/ec-auth-microservice.git</connection>
+        <developerConnection>scm:git:ssh://github.com:3dwardch3ng/ec-auth-microservice.git</developerConnection>
+        <url>https://github.com/3dwardch3ng/ec-auth-microservice/tree/main</url>
+    </scm>
+    <issueManagement>
+        <system>GitHub</system>
+        <url>https://github.com/3dwardch3ng/ec-auth-microservice/issues</url>
+    </issueManagement>
+</project>
