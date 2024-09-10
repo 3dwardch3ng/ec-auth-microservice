@@ -7,12 +7,18 @@
     <parent>
         <groupId>sydney.cheng</groupId>
         <artifactId>ec-super-pom</artifactId>
-        <version>1.0.4</version>
+        <version>1.0.5</version>
     </parent>
 
     <artifactId>ec-auth-microservice</artifactId>
     <version>1.0.0-SNAPSHOT</version>
     <packaging>pom</packaging>
+
+    <modules>
+        <module>api</module>
+        <module>client</module>
+        <module>models</module>
+    </modules>
 
     <licenses>
         <license>
@@ -28,11 +34,6 @@
             <organizationUrl>https://3dwardch3ng.github.io/</organizationUrl>
         </developer>
     </developers>
-    <modules>
-        <module>api</module>
-        <module>client</module>
-        <module>models</module>
-    </modules>
     <scm>
         <connection>scm:git:git://github.com/3dwardch3ng/ec-auth-microservice.git</connection>
         <developerConnection>scm:git:ssh://github.com:3dwardch3ng/ec-auth-microservice.git</developerConnection>

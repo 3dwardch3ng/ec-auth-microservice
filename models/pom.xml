@@ -15,6 +15,23 @@
         <maven.compiler.source>17</maven.compiler.source>
         <maven.compiler.target>17</maven.compiler.target>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+        <ec-user-microservice.version>1.0.0-SNAPSHOT</ec-user-microservice.version>
+        <ec-microservice-commons.version>1.0.1-SNAPSHOT</ec-microservice-commons.version>
     </properties>
 
+    <dependencies>
+        <dependency>
+            <groupId>sydney.cheng</groupId>
+            <artifactId>ec-user-microservice-models</artifactId>
+            <version>${ec-user-microservice.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-security</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>org.projectlombok</groupId>
+            <artifactId>lombok</artifactId>
+        </dependency>
+    </dependencies>
 </project>
